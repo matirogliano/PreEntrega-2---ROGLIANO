@@ -1,0 +1,257 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
+    
+
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+} 
+
+.logo{
+    width: 9rem;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav-item{
+    margin-top: 10px;
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    }
+
+.presentacion{
+    background-image: url(../img/index\ presentacion.JPG);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+    height: 35rem;
+    font-family: 'Barlow', sans-serif;
+    text-align: justify center;
+    font-weight: bold;
+    
+    
+    /*padding-top: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 5rem; */
+
+    padding: 4rem 7rem 4rem 5rem;
+}
+
+
+h4  {
+    color: #8e1812;
+    font-weight:bolder;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.cv {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    color:black;
+} 
+
+
+
+#pie-pagina {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    padding-top: 2rem;
+    background-color: #212529;
+}
+
+/*
+PROMOCIONES
+
+.titular {
+    color:white;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+Mobile fisrt
+
+#body-promos{
+    display: grid;
+    grid-template-areas:
+    "cabecera"
+    "promociones"
+    "footer" ;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+ Estilo HEADER
+
+#header-promos{
+    grid-area: cabecera;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    }
+
+@media screen and (min-width: 768px) {
+    #header-promos{
+        flex-direction: row;
+        text-align: center;
+       
+    }
+}
+
+
+    
+    #menu_nav{
+    list-style: none;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    }
+
+Estilo fotos promos
+#promos{
+    grid-area: promociones;
+}
+
+#promos h2{
+    color: white;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.fotos img{
+    width: 20rem;
+}
+
+#pie-pagina{
+    grid-area: footer;
+}
+*/
+
+/*COMBOS*/
+
+.combos{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    list-style: none;
+}
+.clasico{
+    width: 50rem; 
+}
+
+
+/* PAGE UBICACION*/
+
+.datos{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*PAGE CONTACTO*/
+
+.info-contacto{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    color: black;
+    font-family:'Barlow', sans-serif ;
+    list-style: none;
+    gap: 2rem;
+}
+
+/* PAGE PROMOCIONES*/
+
+h2{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+/*
+.fotos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+*/
+
+.fotos img{
+    width: 20rem;
+}
+
+/*ANIMACIONES*/
+.nav-item:hover{
+    background-color: #8e1812;
+    cursor: pointer;
+}
+
+/*UBICACIONES*/
+.mapa{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#carrusel{
+    width: 700px;
+}
+
+#promos{
+    width: 300px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-container{
+        display: block;
+        flex-direction: row;
+    }
+    .staff{
+        display: flex;
+        
+        
+    }
+}
