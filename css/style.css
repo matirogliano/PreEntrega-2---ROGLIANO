@@ -170,9 +170,7 @@ Estilo fotos promos
     font-family: 'Barlow', sans-serif;
     list-style: none;
 }
-.clasico{
-    width: 50rem; 
-}
+
 
 
 /* PAGE UBICACION*/
@@ -239,7 +237,15 @@ h2{
     width: 700px;
 }
 
-#promos{
+.promos{
+    display: flex;
+    flex-direction: row;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 2rem;
+    align-content: center;
     width: 300px;
 }
 
@@ -249,9 +255,16 @@ h2{
         display: block;
         flex-direction: row;
     }
-    .staff{
-        display: flex;
-        
-        
+
+    .info-contacto{
+        display: block;
+        flex-direction: column;
+
+    }
+
+    .carousel-item {
+        padding: auto;
+
+        width: 600px;
     }
 }
