@@ -1,0 +1,29 @@
+.presentacion{
+    background-image: url(../img/index\ presentacion.JPG);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+    height: 35rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    padding: 4rem 7rem 4rem 5rem;
+}
+
+.cv {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    color:black;
+} 
+
+@media (max-width: $tablet) {
+.presentacion{
+    text-align: center;
+    height: auto;
+}
+}
+

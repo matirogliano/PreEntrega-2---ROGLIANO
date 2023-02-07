@@ -1,0 +1,67 @@
+body{
+    font-family: $fuentePrincipal;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+} 
+
+.logo{
+    width:$size;
+}
+
+h4{
+    color: $color-terciario;
+    font-size: $sizeLetra;
+    font-weight:bolder;
+    text-align: center;
+}
+
+
+#pie-pagina {
+    text-align: center;
+    color: $color-primario;
+    padding-top: $size - 7rem;
+    background-color: $color-cuarto;
+}
+
+
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-container {
+@include flex-columna;
+}
+
+
+.nav-item{
+    margin-top: $size - 8rem;
+    display: flex;
+    font-weight: bold;
+
+    &:hover{
+        background-color: $color-terciario;
+        cursor: pointer;}
+    }
+
+.btn{
+    border:solid 2px $color-secundario;
+    background-color: $color-terciario;
+    color:white;
+    font-weight: bolder;
+}
+
+    @media (max-width: $tablet) {
+        .navbar-container{
+            display: block;
+            flex-direction: row;
+        }
+    }

@@ -1,0 +1,24 @@
+.datos{
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.info-contacto{
+    @include flex-row;
+    justify-content: center;
+    color: $color-secundario;
+    list-style: none;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+
+@media (max-width: $tablet) {
+    .info-contacto{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem;
+    }
+        
+    } 

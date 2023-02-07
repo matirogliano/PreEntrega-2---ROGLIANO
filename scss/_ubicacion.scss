@@ -1,0 +1,15 @@
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: $espaciomedio;
+}
+
+.btnG {
+    @extend .btn;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: $espaciomedio;
+    margin-bottom: $espaciomedio;
+    background-color: $color-cuarto;
+}

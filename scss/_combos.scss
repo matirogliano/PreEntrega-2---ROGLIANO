@@ -1,0 +1,26 @@
+#carrusel{
+    width: $size + 35rem;
+}
+
+h5{
+    color: $color-terciario;
+    font-weight:bolder;
+    font-size: $sizeLetra;
+    text-align: center;
+    font-family: $fuentePrincipal;
+}
+
+@media (max-width: $tablet) {
+#carrusel{
+    width: 400px;
+   margin: 5rem;
+
+}
+
+h5 {
+    text-align: right;
+}
+
+
+}
+

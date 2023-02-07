@@ -1,0 +1,35 @@
+/*Paletas de colores*/
+$color-primario:white;
+$color-secundario:black;
+$color-terciario:#8e1812;
+$color-cuarto:#212529;
+
+/* Tamaño de pantalla*/
+$tablet: 768px;
+
+
+/*Tamaño de width/padding*/
+$size:9rem;
+
+/*Margenes*/
+$espaciochicoXS:-1rem;
+$espacochico:1rem;
+$espaciomedio:2rem;
+
+
+/*Fuente*/
+$fuentePrincipal:'Barlow', sans-serif;
+
+/*Tamaño fuente*/
+$sizeLetra:1.5rem;
+
+/*Mixing*/
+@mixin flex-columna{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-row{
+    display: flex;
+    flex-direction:row;
+}

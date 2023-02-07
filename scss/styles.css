@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*Paletas de colores*/
+/* Tamaños de pantalla*/
+/*Tamaño de width*/
+/*Fuente*/
+/*Tama;o fuente*/
+/*Mixing*/
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.logo {
+  width: 9rem;
+}
+
+h4 {
+  color: #8e1812;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h5 {
+  color: #8e1812;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+
+.presentacion {
+  background-image: url(../img/index\ presentacion.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-attachment: fixed;
+  color: white;
+  height: 35rem;
+  font-family: "Barlow", sans-serif;
+  text-align: justify center;
+  font-weight: bold;
+  padding: 4rem 7rem 4rem 5rem;
+}
+
+#carrusel {
+  width: 44rem;
+}
+
+.presentacion {
+  background-image: url(../img/index\ presentacion.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-attachment: fixed;
+  color: white;
+  height: 35rem;
+  font-family: "Barlow", sans-serif;
+  text-align: justify center;
+  font-weight: bold;
+  padding: 4rem 7rem 4rem 5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

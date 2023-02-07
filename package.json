@@ -1,0 +1,19 @@
+{
+  "name": "preentrega-2--rogliano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matirogliano/PreEntrega-2---ROGLIANO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matirogliano/PreEntrega-2---ROGLIANO/issues"
+  },
+  "homepage": "https://github.com/matirogliano/PreEntrega-2---ROGLIANO#readme"
+}

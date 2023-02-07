@@ -1,0 +1,28 @@
+h2{
+    color: #8e1812;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: $espacochico;
+    margin-bottom: $espaciomedio;
+}
+
+.promos{
+    display: flex;
+    flex-direction: row;
+    margin-top: $espaciochicoXS;
+    margin-bottom: $espaciomedio;
+    margin-left: $espaciomedio;
+    margin-right: $espaciomedio;
+    gap: $espaciomedio;
+    align-content: center;
+    width: $size + 10rem;
+}
+
+
+
+@media (max-width: $tablet) {
+.promos{
+    @include flex-columna;
+}
+}
